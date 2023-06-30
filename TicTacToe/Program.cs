@@ -6,6 +6,7 @@
         {
             char[,] chars = { { '*', '*', '*' }, { '*', '*', '*' }, { '*', '*', '*' } };
             DrawField(chars);
+            Console.WriteLine("Сначала введите строку, потом колонку");
             PlaceChar(chars);
         }
 
