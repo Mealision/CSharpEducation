@@ -5,6 +5,7 @@
         static public void Main(string[] args)
         {
             char[,] chars = { { '*', '*', '*' }, { '*', '*', '*' }, { '*', '*', '*' } };
+            DrawField(chars);
             PlaceChar(chars);
         }
 
