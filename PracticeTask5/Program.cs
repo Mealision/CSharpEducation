@@ -20,6 +20,7 @@
             {
                 int c = a * a - b * b;
                 Console.WriteLine($"Третья сторона равна {c}");
+
             }
 
         }
